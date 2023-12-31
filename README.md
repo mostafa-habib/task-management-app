@@ -17,6 +17,7 @@ This project is a task management application that allows users to manage tasks,
 - React Router: For handling routing within the application.
 - Material-UI (MUI): React components for faster and easier web development.
 - Font Awesome: Icon set and toolkit.
+- Json-server: simulates backend.
 
 ## How to Run Locally
 

@@ -32,26 +32,5 @@
     }
   ],
   "users": [
-    {
-      "id": 100,
-      "username": "Mostafa Habib",
-      "password": "00000",
-      "email": "sasahabeb86@gmail.com",
-      "token": "bjsdsahd"
-    },
-    {
-      "username": "Ali Desha",
-      "email": "mostafahabib866@gmail.com",
-      "password": "12345",
-      "token": "retry0.9497576517925506",
-      "id": 101
-    },
-    {
-      "username": "Mostafa Habib",
-      "email": "SaraAhmed@diracsystems.com",
-      "password": "DiracTeam",
-      "token": "retry0.15312740891210486",
-      "id": 102
-    }
   ]
 }

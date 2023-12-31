@@ -1,0 +1,57 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Home Work",
+      "description": "You should make home work",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "title": "Workout",
+      "description": "You should make Workout",
+      "status": "Active"
+    },
+    {
+      "title": "Learn React",
+      "description": "I will study React course from youtube",
+      "status": "Completed",
+      "id": 3
+    },
+    {
+      "title": "Learn Javascript",
+      "description": "I should learn Js befoe Raect",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "title": "Learn Html",
+      "description": "That's great thing to start with it",
+      "status": "Completed",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 100,
+      "username": "Mostafa Habib",
+      "password": "00000",
+      "email": "sasahabeb86@gmail.com",
+      "token": "bjsdsahd"
+    },
+    {
+      "username": "Ali Desha",
+      "email": "mostafahabib866@gmail.com",
+      "password": "12345",
+      "token": "retry0.9497576517925506",
+      "id": 101
+    },
+    {
+      "username": "Mostafa Habib",
+      "email": "SaraAhmed@diracsystems.com",
+      "password": "DiracTeam",
+      "token": "retry0.15312740891210486",
+      "id": 102
+    }
+  ]
+}

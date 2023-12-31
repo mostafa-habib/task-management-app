@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+input {
+  box-sizing: border-box;
+}
+button {
+  background: #037cf5;
+  color: #fff;
+  padding: 0.8rem;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .tasks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px !important;
+  }
+  .main-part-1 {
+    width: 100% !important;
+  }
+  .main-part-2 {
+    width: 100% !important;
+  }
+  
+}

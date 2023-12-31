@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Home from './components/Home';
+import SignInSide from './components/Login';
+import SignUp from './components/Register';
+import PrivateRoute from './utils/PrivateRoute';
+import AuthProvider from './utils/helpers';
+import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <AuthProvider>
+        <Routes>
+          {/* If no user login yet */}
+          <Route path="/login" element={<SignInSide />} />
+          <Route path="/signup" element={<SignUp />} />
+          {/* PrivateRoute check if there is token for a user or not */}
+          <Route element={<PrivateRoute />}>
+            {/* If user login */}
+            <Route path="/" element={<Home />} />
+          </Route>
+        </Routes>
+      </AuthProvider>
+  </div>
   );
 }
 

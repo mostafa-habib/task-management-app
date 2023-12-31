@@ -25,7 +25,7 @@ This project is a task management application that allows users to manage tasks,
    git clone https://github.com/your-username/task-management-app.git
    cd task-management-app
    npm install
-   npm install -g json-server
+   npm install -g json-server (if you encounter any probelm with command run it in cmd as admin)
    json-server --watch public/db.json --port 3001
    npm start
 
